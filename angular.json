@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "travel"
+    }
+  },
+  "defaultProject": "travel",
+  "cli": {
+    "analytics": "2a8faca4-8005-4720-867a-61d3184c4edb"
+  }
 }

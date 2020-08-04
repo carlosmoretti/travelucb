@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+}
+
+.smallsize {
+    font-size: 0.8rem !important;
+    letter-spacing: 0.1rem;
+}
+
+.card {
+    -webkit-box-shadow: 0px 4px 0px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 4px 0px 0px rgba(0,0,0,0.16);
+}
+
+
+.breadcrumb {
+    background-color: #FFF;
+}
+
+tr[ng-reflect-router-link] {
+    cursor: pointer;
+}
+
+.breadcrumb {
+    margin-left: 0px;
+}
